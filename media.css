@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+    #logo {
+        width: 20em;
+        margin-top: 5em;
+    }
+
+    .cta {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: auto; margin-right: auto;
+    }
+
+    .button {
+        margin-top: 2em;
+    }
+
+    .landing {
+        justify-content: flex-start;
+    }
+
+    #scroll p {
+        font-size: 0.8em;
+    }
+
+    #scroll img {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #scroll p {
+        font-size: 1em;
+    }
+
+    #scroll img {
+        width: 20%;
+    }
+}
